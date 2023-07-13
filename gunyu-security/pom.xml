@@ -8,19 +8,26 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>gunyu-gateway</artifactId>
+    <artifactId>gunyu-security</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>gunyu-gateway</name>
-    <description>gunyu-gateway</description>
+    <name>gunyu-security</name>
+    <description>gunyu-security</description>
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-gateway</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-test</artifactId>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 </project>

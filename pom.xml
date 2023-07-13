@@ -25,6 +25,7 @@
         <module>gunyu-common</module>
         <module>gunyu-registry</module>
         <module>gunyu-gateway</module>
+        <module>gunyu-security</module>
     </modules>
 
     <dependencyManagement>
