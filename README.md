@@ -1,4 +1,7 @@
-# GunYu
+# Gunyu
+## Environment
+* Jdk 1.8
+
 ## Completed
 - [x] 接口文档整合 (Spring Gateway + Spring Doc)
 
